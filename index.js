@@ -52,6 +52,16 @@ const USDToazer = 0.59;
 const BigMacIndexazer = (((USDToazer - azerimpliedPP) / azerimpliedPP) * 100).toFixed(2);
 console.log("Azerbaijan Big MAC index " + BigMacIndexazer);
 
-/* Germany //////////////////////////////// */
-/* Brazil //////////////////////////////// */
+/* Turkey //////////////////////////////// */
+const turkeyBigMac = 14.99;
+const turkeyimpliedPP = USBigMac / turkeyBigMac;
+const USDToturkey = 0.12;
+const BigMacIndexturkey = (((USDToturkey - turkeyimpliedPP) / turkeyimpliedPP) * 100).toFixed(2);
+console.log("Turkish Big MAC index " + BigMacIndexturkey);
 
+/* Brazil //////////////////////////////// */
+const canadaBigMac = 6.77;
+const canadaimpliedPP = USBigMac / canadaBigMac;
+const USDTocanada = 0.81;
+const BigMacIndexcanada = (((USDTocanada - canadaimpliedPP) / canadaimpliedPP) * 100).toFixed(2);
+console.log("Canadian Big MAC index " + BigMacIndexcanada);
